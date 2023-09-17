@@ -2,7 +2,7 @@ rule extract_meta:
     input:
         profiles="profiles/{threshold}/preprocessed/{tf}.bed"
     output:
-        meta="data/{threshold}/meta/{tf}.csv"
+        meta=temp("data/{threshold}/meta/{tf}.csv")
     params:
         script="rules/chipatlas/extract_meta.py"
     shell:
