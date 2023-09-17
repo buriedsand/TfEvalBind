@@ -17,5 +17,5 @@ include: "rules/jaccard/compute_jaccard.smk"
 include: "rules/jaccard/aggregate_jaccard.smk"
 
 rule all:
-    input: expand("outputs/{threshold}/jaccard_results.txt", threshold=["05", "50"])
+    input: expand("outputs/{threshold}/jaccard_results.txt", threshold=["05", "10", "20", "50"])
 
