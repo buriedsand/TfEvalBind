@@ -1,2 +1,6 @@
 .conda
 .snakemake
+profiles
+data
+outputs
+playground.py
