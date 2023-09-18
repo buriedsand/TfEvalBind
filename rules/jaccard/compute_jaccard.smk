@@ -2,7 +2,7 @@ include: "jaccard_utils.smk"
 
 rule compute_jaccard:
     input:
-        bed_files=get_samples_from_checkpoint,
+        bed_file=lambda wildcards: list(set(x for t in get_chunk(wildcards) for x in t)) # unique elements from the list of tuples
     params:
         chunk=get_chunk
     output:
