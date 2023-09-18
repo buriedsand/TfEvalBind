@@ -2,7 +2,7 @@
 5-mC
 8-Hydroxydeoxyguanosine
 AATF
-AAV Rep68
+AAV_Rep68
 ACTR5
 ADAR
 ADNP
@@ -231,7 +231,7 @@ CXXC1
 CXXC5
 Cas9
 Crotonyllysine
-Cyclobutane pyrimidine dimers
+Cyclobutane_pyrimidine_dimers
 DACH1
 DAXX
 DBP
@@ -343,7 +343,7 @@ EVX1
 EWSR1
 EZH1
 EZH2
-Epitope tags
+Epitope_tags
 F2RL1
 FAM208A
 FANCD2
@@ -470,14 +470,14 @@ HEY1
 HEY2
 HEYL
 HHEX
-HHV UL87
+HHV_UL87
 HIC1
 HIC2
 HIF1A
 HINFP
 HIRA
-HIV Tat
-HIV1 tat
+HIV_Tat
+HIV1_tat
 HIVEP1
 HIVEP3
 HJURP
@@ -539,7 +539,7 @@ HSF1
 HSF2
 HSF4
 HSP90B1
-Hepatitis B Virus X antigen
+Hepatitis_B_Virus_X_antigen
 ICE1
 ICE2
 ID1
@@ -635,7 +635,7 @@ KMT2A
 KMT2B
 KMT2C
 KMT2D
-KSHV LANA
+KSHV_LANA
 L3MBTL2
 L3MBTL3
 LARP7
@@ -691,7 +691,7 @@ MCM2
 MCM3
 MCM5
 MCM7
-MCPV ST
+MCPV_ST
 MCRS1
 MDM2
 MDN1

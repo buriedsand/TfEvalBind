@@ -13,7 +13,7 @@ def write_values_to_file(values, file_path):
     """Write the provided values to a file, one per line."""
     with open(file_path, "w") as f:
         for value in values:
-            f.write(f"{value}\n")
+            f.write(f"{value.replace(' ', '_')}\n")
 
 
 def main():
